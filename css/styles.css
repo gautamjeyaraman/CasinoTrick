@@ -1,0 +1,44 @@
+
+body {
+	background: lightgoldenrodyellow;
+}
+
+.mainFrame {
+	background: white;
+	position: relative;
+	border: 1px solid #000;
+	width: 960px;
+	height: 500px;
+	margin: 30px auto 0;
+}
+
+.gameBox {
+	position: absolute;
+	width:30px;
+	height: 30px;
+	background: red;
+	border: 1px solid #000;
+}
+
+.balance {
+	position: absolute;
+	color: green;
+	top: 510px;
+	font-size: 18px;
+}
+
+.resetCount {
+	position: fixed;
+	color: green;
+	top: 200px;
+	right: 40px;
+	font-size: 40px;
+}
+
+.onTable {
+	position: fixed;
+	color: green;
+	top: 100px;
+	right: 40px;
+	font-size: 40px;
+}
